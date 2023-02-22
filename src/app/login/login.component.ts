@@ -27,14 +27,14 @@ export class LoginComponent {
         return a.email === this.loginForm.value.email && a.password === this.loginForm.value.password 
       });
       if(user){
-        alert('Login Succesful');
+        alert('Bienvenido');
         this.loginForm.reset()
       this.router.navigate(["home"])
       }else{
-        alert("user not found")
+        alert("Usuario No encontrado")
       }
     },err=>{
-      alert("Something went wrong")
+      alert("ERROR")
     })
   }
 }

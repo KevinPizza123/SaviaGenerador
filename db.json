@@ -1,13 +1,17 @@
 {
   "signupUsersList": [
       {
-        "email": "bolu@gmail.com",
+        "email": "juana@gmail.com",
         "password": "1234"
       }
     ,
     {
       "email": "pam@gmail.com",
       "password": "12345pam"
+    },
+    {
+      "email": "johanna@gmail.com",
+      "password": "12345johanna"
     }
   ]
   }

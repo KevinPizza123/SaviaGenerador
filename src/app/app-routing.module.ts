@@ -11,6 +11,7 @@ import { UserComponent } from './user/user.component';
 const routes: Routes = [
  {component:LoginComponent,path:'login'},
  {component:RegisterComponent,path:'register'},
+ {component:HomeComponent,path:'home'},
  {component:HomeComponent,path:'',canActivate:[AuthGuard]},
  {component:UserComponent,path:'user',canActivate:[AuthGuard]},
  {component:CustomerComponent,path:'customer',canActivate:[AuthGuard]},
